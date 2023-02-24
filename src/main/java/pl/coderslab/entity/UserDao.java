@@ -106,16 +106,4 @@ public class UserDao {
         }
     }
 
-//    private int findUser(int userId) {
-//
-//    }
-
-//    PreparedStatement preStmt = conn.prepareStatement(sql, PreparedStatement.RETURN_GENERATED_KEYS);
-//    This gets id from users
-//ResultSet rs = preStmt.getGeneratedKeys();
-//
-//if (rs.next()) {
-//        long id = rs.getLong(1);
-//        System.out.println("Inserted ID: " + id);
-//    }
 }
